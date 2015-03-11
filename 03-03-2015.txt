@@ -1,0 +1,259 @@
+XHTML  O QUE É
+
+E A CAMADA CLIENTE O QUE VAI PRO CLIENTE, HTML CSS JAVASRIPT
+BROWSE CONSEGUE RENDERIZAR
+
+1- HTML  PRIMEIRA CAMADA
+2- CSS  SEGUNDA CAMADA
+3- JAVASCRIPT TERCEIRA CAMADA
+(COMPORTAMENTO DA  APAREÇA OU SUMA OU FAÇA ALGUMA OPERAÇÃO)
+-------------------------------------------------------------
+html - declarativa apenas informa o que acontece por baixo dos panos
+sql- declarativa o conjunto de dados e vc não sabe o que sucede para a busca dessas informações
+
+
+XML Conversa com a linguagem (json) respeita estrutura de arvore
+tags abertas e fechadas e respeita estrutura de árvore
+referencia: www.w3schools.com
+
+
+-------------------------------------------------------------------
+
+
+Tekton - static posso localhost:8080/stact/img/ajax.gif
+
+adiciona home.html no statc
+html5 possui no raiz 
+por dentro do servidor, para não ter problema
+
+
+meta linguagem dicionario  para explicar coisas escritas
+meta dado dados que falam de dados
+
+----------------------------------------------------------------
+
+HTML BLOCO DIV
+
+
+CTRL SHIFTPARA DUPLICAR A DIV
+FORMAT CODE 
+
+
+RENDERIZANDO COLOCA UMA DIV E INSPECIONAR O CODIGO VC VERIFICA COM O GOOGLE CHROME A INSPEÇÃO DO CODIGI
+
+
+TEXTO PARÁGRAFO tag p define um paragrafo com espaço a cima e abaixo<p></p>
+proxima linha tag <br> </br>
+utiliza para agrupar um texto estilo diferente a elementos tag span
+
+
+Âncora (link)
+Tag  a ( ancora)   serve para  levar usuario a outra pagina ou secao de documento
+atributo href o destino
+targe indica como abrir a nova pagina
+_self (padrão)
+_
+
+<ol> ordenar uma lista
+	<LI> <A HREF=" LINK"></LI>
+
+<ul>  sem marcação  ou * ou °
+
+
+abre outra pagina e n fecha a principal target
+-------------------------------------------------------------
+
+<div> 
+
+<div id="cap1">
+<h1> capitulo</h1>
+</div>
+
+<li><a href"#cap1"> Cap 3</a></li>
+---------------------------------------------------------------
+tag img  tributosrc  alguma vezes usado conjnto com <a> para criar botões
+tanto meu site quanto site alheios, detalhe em protocolo.
+<img src ="/static/imh/ajax.gifs"/>  ou link do google " entre aspas" tire o http://www.google.com.br link  so deixar //www.google.com.br
+
+
+---------------------------------------------------------
+Formulários 
+tag form utilizado inserir inputs action    e atributo method
+
+Inputs (text submit select radio checkbox)
+<form action="" method="get">
+ NAME:<input type="text" name ="name" placeholder="digite aqui seu nome"/>  (placeholder informa ao usuario o que fazer)
+
+<input type ="submit" value="salvar"/>
+<button type" submit">Salvar</button>
+
+</BR>
+Sexo: Masculino < input type="radio" name="sexo" value ="M"/>
+Sexo: FEMININO < input type="radio" name="sexo" value ="f"/>
+
+
+
+futebol< input type="checkbox" name="prefe" value ="fut"/> 
+
+Desenvolvimento< input type="checkbox" name="prefe! value ="desenvolvimento"/> 
+
+COMBOBO
+
+<select> name = "estado">
+	<option value = "sp"> SP </option>
+	<option value = "rj"> RJ</option>
+	<option value= "am"> selected ="selected> Amazoni </option>  deixa selecionado como primeiro item 
+</select>
+
+------------------------------------------------------------------
+
+Dados em forma de tabela 
+tag table
+
+
+thead- cabeçalho
+tbody- corpo da tabel
+table row (linha) -tr
+table heard th
+table data (célula) -td
+
+<table>
+ <thead>
+	<tr> 
+		<th>nome</th>
+	</tr
+ </thead>
+------------------------------------------------------------------
+
+
+
+04/03/2015
+
+CSS E TWITTER BOOTSTRAP
+
+o que é CSS   folha de estilo em cascat
+usada na view para alterar propriedade visuai
+Posicionamento
+tamanho
+cores
+....
+
+---------------------------------------
+
+onde colocar o código  
+atributo style do elemento html
+tag style dento da tag head
+arquivo separado .css referenciado link ddento da tag head (mais utilizado)
+
+------------------------------
+seletor escolher onde aplicar o estilo 
+pela tag  
+pelo id 
+pelo atributo class
+por pseudo classe
+combinação de todas acima
+------------------------------------------
+
+antes da tag
+pulei <span style="color: red> </span>
+
+cabeçalho
+<style>
+ span{color: blue;}
+</style>
+
+
+dentro da pasta no frame css  nome  home
+</style>
+
+span{
+	color;
+}
+
+
+
+</style>
+link type"text/css" htef="/static/css/home.css"rel ="stylesheet"/>
+link css
+
+pulei <span id-"span-azul"> red </span>
+
+
+span{
+	color: grem;
+}
+.amarelo{
+color : #
+background-color: bbc6
+
+}
+
+a.mare: houver`{
+color: red;
+font-style italic
+
+}
+
+-------------------------------
+layout "caixa"   CONTINUAÇÃO 04/03/2015
+
+
+
+tabela com dados 
+div agrupa componentes e nao tabela
+no tecton tem o bootstrap configurado
+
+
+
+
+o que twiter bootstrap  
+
+layoutit  baseado em bootstrap online
+
+Site  layoutit.com
+star now with bootstrap 3
+
+
+
+
+--------------------------------------
+
+
+templates
+o que é template
+renderização
+herança  define o pai e vai herdandos
+macro
+parametros
+comando if
+comando for 
+trabalho
+
+
+pacote  routes (seria quase igual php)
+
+
+
+__future__  ou __name
+pycharm utf
+
+@login_not_requiresd
+@not_csrf
+def index():
+  pass
+
+
+
+
+
+request 
+get /usuario envia solitcitação para routes index que envia o jinja2 us_form {%extendes %}
+gera uma string  com conteudo html e devolve para usuario  e response
+
+
+
+
+
+
+
+
